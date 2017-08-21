@@ -1,0 +1,108 @@
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Acknowledgements}{v}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abstract}{vi}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Table of Contents}{viii}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Figures}{xiii}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Abbreviations}{xvi}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}
+\contentsline {section}{\numberline {1.2}Research outline}{4}
+\contentsline {section}{\numberline {1.3}Background}{6}
+\contentsline {subsection}{\numberline {1.3.1} General Motor Learning/ Maintenance}{6}
+\contentsline {subsection}{\numberline {1.3.2}Zebra Finch Song Behavior}{7}
+\contentsline {subsection}{\numberline {1.3.3} Song Circuit overview}{9}
+\contentsline {subsection}{\numberline {1.3.4}Vocal Motor pathway }{10}
+\contentsline {subsection}{\numberline {1.3.5}Anterior Forebrain Pathway (AFP)}{10}
+\contentsline {subsection}{\numberline {1.3.6}HVC physiology}{11}
+\contentsline {chapter}{\numberline {2}A carbon-fiber electrode array for long-term neural recording}{15}
+\contentsline {section}{\numberline {2.1}Introduction}{15}
+\contentsline {section}{\numberline {2.2}Results}{18}
+\contentsline {subsection}{\numberline {2.2.1}Fire Sharpening}{18}
+\contentsline {subsection}{\numberline {2.2.2}Acute recordings}{19}
+\contentsline {subsection}{\numberline {2.2.3}Single-unit recordings in freely behaving birds}{20}
+\contentsline {subsection}{\numberline {2.2.4}Simultaneously recorded traces}{24}
+\contentsline {subsection}{\numberline {2.2.5}Yield and single unit stability}{24}
+\contentsline {section}{\numberline {2.3}Methods}{28}
+\contentsline {subsection}{\numberline {2.3.1}Carbon microthread arrays}{28}
+\contentsline {subsection}{\numberline {2.3.2}Surgical Procedure}{31}
+\contentsline {subsection}{\numberline {2.3.3}Electrophysiological Recording}{32}
+\contentsline {subsection}{\numberline {2.3.4}Data Analysis}{33}
+\contentsline {subsection}{\numberline {2.3.5}Sorted multi-unit and single unit stability using spike features and spike train statistics}{34}
+\contentsline {subsection}{\numberline {2.3.6}Imaging}{35}
+\contentsline {chapter}{\numberline {3}An open source, wireless capable miniature microscope system}{36}
+\contentsline {section}{\numberline {3.1}Introduciton}{36}
+\contentsline {section}{\numberline {3.2}Methods}{37}
+\contentsline {subsection}{\numberline {3.2.1}General Miniature Microscope Design}{37}
+\contentsline {subsection}{\numberline {3.2.2}Software Design}{40}
+\contentsline {subsection}{\numberline {3.2.3}Near-real-time Software Details}{40}
+\contentsline {subsection}{\numberline {3.2.4}Auditory Feedback}{43}
+\contentsline {subsection}{\numberline {3.2.5}CMOS Sensor and Wireless Transmitter}{43}
+\contentsline {subsection}{\numberline {3.2.6}Commutator Design}{46}
+\contentsline {subsection}{\numberline {3.2.7}Surgical Procedure}{47}
+\contentsline {subsection}{\numberline {3.2.8}Song Alignments}{47}
+\contentsline {subsection}{\numberline {3.2.9}Calcium Imaging ROI Analysis}{48}
+\contentsline {subsection}{\numberline {3.2.10} Wireless imaging quality quantification}{48}
+\contentsline {section}{\numberline {3.3}Results}{48}
+\contentsline {subsection}{\numberline {3.3.1}Optical Recording of Neurons Expressing Genetically Encoded Calcium Indicators}{48}
+\contentsline {section}{\numberline {3.4}Discussion}{50}
+\contentsline {subsection}{\numberline {3.4.1}Advantage of 3D Printed Housing for Rapid Microscope Assembly and Prototyping}{51}
+\contentsline {subsection}{\numberline {3.4.2}All Optical Physiology with Multi-Channel Light Delivery and Recording}{52}
+\contentsline {subsection}{\numberline {3.4.3}Low Latency, Open Source Acquisition Software}{52}
+\contentsline {subsection}{\numberline {3.4.4}CMOS Trade-Offs and Deficits}{53}
+\contentsline {subsection}{\numberline {3.4.5}Use of Off-the-Shelf Components for Ease of Construction}{53}
+\contentsline {chapter}{\numberline {4}Mesoscopic Patterns of Neural Activity Support Songbird Cortical Sequences}{56}
+\contentsline {section}{\numberline {4.1}Introduction}{56}
+\contentsline {section}{\numberline {4.2}Results}{60}
+\contentsline {subsection}{\numberline {4.2.1}The representation of time in HVC projection neurons is spatially correlated over a 100 $\mu $m length scale}{60}
+\contentsline {subsection}{\numberline {4.2.2}Inhibitory neuron activity is reflected in a 30 Hz local field potential and this field potential is also correlated over a 100 $\mu $m length scale}{62}
+\contentsline {subsection}{\numberline {4.2.3}The HVC LFP reveals that on average, HVC$_{X}$ and interneurons fire at different phases of a 25-35 Hz inhibitory rhythm}{66}
+\contentsline {section}{\numberline {4.3}Discussion}{69}
+\contentsline {section}{\numberline {4.4}Materials and Methods:}{73}
+\contentsline {subsection}{\numberline {4.4.1}Subjects}{73}
+\contentsline {subsection}{\numberline {4.4.2}Viral labeling and calcium imaging.}{73}
+\contentsline {subsection}{\numberline {4.4.3}Electrophysiology.}{74}
+\contentsline {subsection}{\numberline {4.4.4} Analysis of calcium imaging data}{75}
+\contentsline {subsection}{\numberline {4.4.5}Bootstrap tests of imaging data.}{76}
+\contentsline {subsection}{\numberline {4.4.6}Analysis of electrophysiology data}{77}
+\contentsline {subsection}{\numberline {4.4.7}Song alignments}{78}
+\contentsline {subsection}{\numberline {4.4.8}Spike sorting. }{78}
+\contentsline {subsection}{\numberline {4.4.9}Spectral density images}{79}
+\contentsline {subsection}{\numberline {4.4.10}Identifying bursts in projection neurons and interneurons for burst-triggered averaging. }{79}
+\contentsline {subsection}{\numberline {4.4.11}Computing firing pattern distance}{79}
+\contentsline {subsection}{\numberline {4.4.12}Determining whether interneuron troughs are synchronous.}{79}
+\contentsline {subsection}{\numberline {4.4.13}Phase locking.}{80}
+\contentsline {subsection}{\numberline {4.4.14}Statistical tests}{80}
+\contentsline {chapter}{\numberline {5}Unstable neurons underlie a stable learned behavior}{82}
+\contentsline {section}{\numberline {5.1}Introduction}{82}
+\contentsline {section}{\numberline {5.2}Results}{85}
+\contentsline {subsection}{\numberline {5.2.1}Song is supported by stable mesoscopic dynamics}{85}
+\contentsline {subsection}{\numberline {5.2.2}Multi-unit ensembles and single inhibitory neurons are stable}{86}
+\contentsline {subsection}{\numberline {5.2.3}Individual projection neurons are unstable over days.}{89}
+\contentsline {subsection}{\numberline {5.2.4}Close inspection reveals the fine microstructure of song also changes over intervals of sleep and increases in consistency throughout the day}{93}
+\contentsline {section}{\numberline {5.3}Discussion}{95}
+\contentsline {section}{\numberline {5.4}Methods}{98}
+\contentsline {subsection}{\numberline {5.4.1}Subjects}{98}
+\contentsline {subsection}{\numberline {5.4.2}Splaying microfiber electrodes}{98}
+\contentsline {subsection}{\numberline {5.4.3}Microfiber electrodes for multi-unit recordings}{98}
+\contentsline {subsection}{\numberline {5.4.4}Tracheosyringeal nerve cut}{99}
+\contentsline {subsection}{\numberline {5.4.5}Calcium imaging}{99}
+\contentsline {subsection}{\numberline {5.4.6}Virus Information}{100}
+\contentsline {subsection}{\numberline {5.4.7}Song alignments}{101}
+\contentsline {subsection}{\numberline {5.4.8}Spectral density images}{101}
+\contentsline {subsection}{\numberline {5.4.9}Acoustic change post-nerve cut}{101}
+\contentsline {subsection}{\numberline {5.4.10}Acoustic change overnight}{102}
+\contentsline {subsection}{\numberline {5.4.11}Local field potentials and single units}{102}
+\contentsline {subsection}{\numberline {5.4.12}Multi-unit electrophysiology}{103}
+\contentsline {subsection}{\numberline {5.4.13}Calcium imaging}{103}
+\contentsline {subsection}{\numberline {5.4.14}Controls for stability of the imaging plane and photobleaching}{105}
+\contentsline {subsection}{\numberline {5.4.15}Statistical analysis}{106}
+\contentsline {chapter}{\numberline {6}Conclusions}{107}
+\contentsline {section}{\numberline {6.1} Potential cellular mechanisms for reinforcement learning}{107}
+\contentsline {section}{\numberline {6.2} Engineering limitations, and future directions.}{109}
+\contentsline {subsection}{\numberline {6.2.1} Identifying the downstream projection targets of projection neurons during imaging }{109}
+\contentsline {subsubsection}{ Genetic Labeling of specific subpopulations}{109}
+\contentsline {subsubsection}{ Multicolor Imaging}{110}
+\contentsline {subsection}{\numberline {6.2.2}Structured Illumination Microscopy}{111}
+\contentsline {section}{\numberline {6.3}ROI based, near-Real-Time Brain Machine Interface (BMI) experiments }{114}
+\contentsline {section}{\numberline {6.4}The role of sleep}{116}
+\contentsline {chapter}{References}{120}
+\contentsline {chapter}{Curriculum Vitae}{133}

@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: 0_Prelim/prelim.aux
+A level-1 auxiliary file: 1_Intro/intro.aux
+A level-1 auxiliary file: 2_Body/body.aux
+The style file: apalike.bst
+Database file #1: thesis.bib
+Repeated entry---line 1107 of file thesis.bib
+ : @article{Wang2008-ml
+ :                     ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Giraud:2012hq
+Warning--empty journal in Sahani:1999vj
+You've used 158 entries,
+            1935 wiz_defined-function locations,
+            1330 strings with 33829 characters,
+and the built_in function-call counts, 63227 in all, are:
+= -- 5948
+> -- 3387
+< -- 58
++ -- 1202
+- -- 1170
+* -- 5629
+:= -- 11463
+add.period$ -- 472
+call.type$ -- 158
+change.case$ -- 1374
+chr.to.int$ -- 150
+cite$ -- 160
+duplicate$ -- 2146
+empty$ -- 3890
+format.name$ -- 1420
+if$ -- 11838
+int.to.chr$ -- 9
+int.to.str$ -- 0
+missing$ -- 159
+newline$ -- 791
+num.names$ -- 474
+pop$ -- 1213
+preamble$ -- 1
+purify$ -- 1375
+quote$ -- 0
+skip$ -- 1622
+stack$ -- 0
+substring$ -- 3611
+swap$ -- 156
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 946
+warning$ -- 2
+while$ -- 441
+width$ -- 0
+write$ -- 1962
+(There was 1 error message)

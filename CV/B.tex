@@ -1,0 +1,472 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% WALIII's CV Template %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Based on the 'Sample CV of LaTeX fame. Heavily modified within class.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[12pt]{article}
+
+% The automated optical recognition software used to digitize resume
+% information works best with fonts that do not have serifs. This
+% command uses a sans serif font throughout. Uncomment both lines (or at
+% least the second) to restore a Roman font (i.e., a font with serifs).
+%\usepackage{times}
+%\renewcommand{\familydefault}{\sfdefault}
+
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+\usepackage{comment}
+
+% Simpler bibsection for CV sections
+% (thanks to natbib for inspiration)
+\makeatletter
+\newlength{\bibhang}
+\setlength{\bibhang}{1em} %1em}
+\newlength{\bibsep}
+ {\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
+\newenvironment{bibsection}%
+        {\begin{enumerate}{}{%
+%        {\begin{list}{}{%
+       \setlength{\leftmargin}{\bibhang}%
+       \setlength{\itemindent}{-\leftmargin}%
+       \setlength{\itemsep}{\bibsep}%
+       \setlength{\parsep}{\z@}%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{enumerate}\vspace{-.6\baselineskip}}
+%        {\end{list}\vspace{-.6\baselineskip}}
+\makeatother
+
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%
+%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
+%
+% The next \usepackage line changes the layout for CV style section
+% headings as marginal notes. It also sets up the paper size as either
+% letter or A4. By default, letter was used. If A4 paper is desired,
+% comment out the letterpaper lines and uncomment the a4paper lines.
+%
+% he margin widths and section title widths can be
+% easily adjusted.
+%
+% ALSO: Notice that the includefoot option can be commented OUT in order
+% to put the PAGE NUMBER *IN* the bottom margin. This will make the
+% effective text area larger.
+%
+% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
+% see the note about the +LP and -LP lines below. Comment out the +LP
+% and uncomment the -LP.
+%
+% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
+% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
+% below.
+
+
+%% Use these lines for letter-sized paper
+\usepackage[paper=letterpaper,
+            %includefoot, % Uncomment to put page number above margin
+            marginparwidth=1.0in,     % Length of section titles
+            marginparsep=.0005in,       % Space between titles and text
+            margin=1.5in,               % 1 inch margins
+            includemp]{geometry}
+
+%% Use these lines for A4-sized paper
+%\usepackage[paper=a4paper,
+%            %includefoot, % Uncomment to put page number above margin
+%            marginparwidth=30.5mm,    % Length of section titles
+%            marginparsep=1.5mm,       % Space between titles and text
+%            margin=25mm,              % 25mm margins
+%            includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0in}
+
+\usepackage[shortlabels]{enumitem}
+
+%% Reference the last page in the page number
+%
+% NOTE: comment the +LP line and uncomment the -LP line to have page
+%       numbers without the ``of ##'' last page reference)
+%
+% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+%       numbers (make sure includefoot is commented out above)
+%
+\usepackage{fancyhdr,lastpage}
+\usepackage[dvipsnames]{xcolor}
+
+\pagestyle{fancy}
+%\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyheadoffset{\marginparsep+\marginparwidth}
+\newlength{\headpageshift}
+\setcounter{page}{133}
+\setlength{\headpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lhead{\hspace{\headpageshift}%
+       \parbox{4.5in}{\, \hfill %
+%                    \arabic{page} of \protect\pageref*{LastPage} % +LP
+                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Finally, give us PDF bookmarks
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+% (optional argument typesets an object right-justified across from name
+%  as well)
+%
+% Usage: \makeheading{name}
+%        OR
+%        \makeheading[right_object]{name}
+%
+% Place at top of document. It should be the first thing.
+% If ``right_object'' is provided in the square-braced optional
+% argument, it will be right justified on the same line as ``name'' at
+% the top of the CV. For example:
+%
+%       \makeheading[\emph{Curriculum vitae}]{Your Name}
+%
+% will put an emphasized ``Curriculum vitae'' at the top of the document
+% as a title. Likewise, a picture could be included:
+%
+%   \makeheading[\includegraphics[height=1.5in]{my_picutre}]{Your Name}
+%
+% the picture will be flush right across from the name.
+\newcommand{\makeheading}[2][]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+         \center
+             {\large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}%
+         \end{minipage}}
+
+% The section headings
+%
+% Usage: \section{section name}
+\renewcommand{\section}[1]{\pagebreak[3]%
+    \hyphenpenalty=10000%
+    \vspace{1.3\baselineskip}%
+    \phantomsection\addcontentsline{toc}{section}{#1}%
+    \noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth}{\raggedright #1}}}%
+    \vspace{-\baselineskip}\par}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1,leftmargin=*]}{\end{itemize}%
+         \vspace{-.6\baselineskip}}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{lonelist}[1][\enskip\textbullet]%
+        {\begin{list}{#1}{%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{list}\vspace{-.6\baselineskip}}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
+        {\end{itemize}}
+
+% An environment IDENTICAL to innerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{loneinnerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
+        {\end{itemize}\vspace{-.6\baselineskip}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[3]}
+\newcommand{\halfblankline}{\quad\vspace{-0.5\baselineskip}\pagebreak[3]}
+
+% Uses hyperref to link DOI
+\newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
+\newcommand\doi[1]{doi:\doilink{#1}}
+
+% For \url{SOME_URL}, links SOME_URL to the url SOME_URL
+\providecommand*\url[1]{\href{#1}{#1}}
+% Same as above, but pretty-prints SOME_URL in teletype fixed-width font
+\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
+
+% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
+\providecommand*\email[1]{\href{mailto:#1}{#1}}
+% Same as above, but pretty-prints ADDRESS in teletype fixed-width font
+%\renewcommand*\email[1]{\href{mailto:#1}{\texttt{#1}}}
+
+%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+%    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+%    \TeX}}
+\providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    \TeX}}
+\providecommand\Matlab{\textsc{Matlab}}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\makeheading{Curriculum Vitae}
+
+\section{Name}
+\newlength{\rcollength}\setlength{\rcollength}{1.1in}%
+%
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+%\href{http://www.cse.osu.edu/}%
+%     {Department of Computer Science and Engineering} & \\
+%\href{http://www.osu.edu/}{The Ohio State University}
+\textbf{William Anthony Liberti III}  \\
+Year of Birth: 1989   \\
+\end{tabular}
+
+\section{Contact Information}
+
+% NOTE: Mind where the & separators and \\ breaks are in the following
+%       table.
+%
+% ALSO: \rcollength is the width of the right column of the table
+%       (adjust it to your liking; default is 1.85in).
+%
+
+%
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+%\href{http://www.cse.osu.edu/}%
+%     {Department of Computer Science and Engineering} & \\
+%\href{http://www.osu.edu/}{The Ohio State University}
+627-629 Commonwealth Avenue   & 617-529-0762 \\
+Boston, MA 02215    & \email{bliberti@bu.edu}\\
+\end{tabular}
+
+%\section{Objective}
+
+%Insert text here if you want to
+%\begin{innerlist}
+%\item More information and auxiliary documents can be found at\\\url{http://www.tedpavlic.com/facjobsearch/}
+%\end{innerlist}
+
+\section{Research Interests}
+
+Tool development, Systems and Computational Neuroscience, Motor Sequencing \& Learning, Electrophysiology, Neurophotonics, Calcium Imaging, Nonlinear Optics and Microscopy.
+
+\section{Education}
+
+\href{https://www.bumc.bu.edu/gms/}{\textbf{Boston University Graduate Medical School}},
+Boston, MA
+\begin{outerlist}
+\item[] Ph.D.,
+        \href{http://www.bu.edu/neuro/graduate/}
+             {Neuroscience},
+             \emph{Expected:} July 2017
+        \begin{innerlist}
+        \item Advisor:
+              \href{http://people.bu.edu/timothyg/}
+                   {Timothy Gardner, Ph.D} 
+        \end{innerlist}
+\end{outerlist}
+\vspace{.1in}
+\href{http://www.bu.edu}{\textbf{Boston University}},
+Boston, MA
+\begin{outerlist}
+\item[] B.S.,
+        \href{http://www.bu.edu/academics/cas/programs/biochemistry-molecular-biology/ba-ma/}
+             {Cell Biology, Molecular Biology  \& Genetics  \textit{With Distinction}
+}, May 2012
+\end{outerlist}
+
+\section{Research Experience}
+
+\textbf{Graduate Research Assistant} \hfill {May 2013 to present}
+\begin{innerlist}
+
+\item[] Graduate Program in Neuroscience,  \emph{Neurophotonics Graduate Fellow}\\
+        \textit{Research Summary:}  Design and implementation of tools for Electrophysiology and Calcium imaging in awake behaving Zebra Finches to study motor learning and the stability of motor sequencing.
+\end{innerlist}
+
+
+
+
+\section{First-Author Refereed Journal Publications}
+\vspace{-.1275in}
+\begin{bibsection}
+
+\item {\bf Liberti WA}, Shen J, Leman DP, Perkins LN, Gardner TJ  ``Premotor sequence exploration and reinforcement during practice" \emph{\color{Maroon} In Preparation}
+\item Moorman S*, {\bf Liberti WA*},  Perkins LN, Markowitz JE, Gardner TJ  ``Noisy and synchronous network activity during sleep predicts future premotor sequence trajectories" \emph{\color{Maroon} In Preparation}
+\item Shen J*, {\bf Liberti WA*},  Blute T, Liberti D, Kotton DN, Cruz-Martin A, Gardner TJ  ``Songbird neural-organotypic culture as an in-vitro model for interrogating self-organizing sparse networks" \emph{\color{Maroon} In Submission}
+\item {\bf Liberti WA},  Perkins LN, Leman DP, Gardner TJ  ``An open source, wireless capable miniature microscope system'' \emph{ Journal of Neural Engineering} 14.4 (2017): 045001.
+\item {\bf Liberti WA*}, Markowitz JE*, Perkins LN, Leman DP, Liberti DC, Guitchounts G, Velho T,  Lois C, Kotton DN, Gardner TJ  ``Unstable neurons underlie a stable learned behavior" \emph{ Nature Neuroscience} 19.12 (2016): 1665-1671.
+\item Markowitz JE*, {\bf Liberti, WA*},  Guitchounts G, Velho T,  Lois C, Gardner, TJ  ``Mesoscopic patterns of neural activity support songbird cortical sequences" \emph{PLoS Biology}, 13.6 (2015): e1002158.
+    \item  Guitchounts G,*, Markowitz JE,*, {\bf Liberti WA*}, Gardner TJ  ``A carbon-fiber electrode array for long-term neural recording." \emph{Journal of Neural Engineering}, 10, 046016 (2013).
+   \end{bibsection}
+   
+* indicates co-authorship
+%
+
+% Add a little space to nudge next ``Conference Publications'' marginpar
+% down to make room for tall ``Submitted Journal Publications''
+% marginpar. If there are enough submitted journal publications, this
+% space will not be needed (and should be removed).
+%\vspace{0.1in}
+\section{Patents}
+
+Minimally invasive splaying microfiber electrode array and methods of fabricating and implanting the same.  U.S. Patent Application 14/902,734, 2014
+
+\section{Awards}
+Student Awards --- Boston University, Graduate School
+\begin{innerlist}
+\item GPN 1\textsuperscript{st} place poster prize \hfill{2016, 2017}
+\item Neurophotonics Graduate Fellowship \hfill{2016}
+\item BioWeek 1\textsuperscript{st} place poster prize \hfill{2015}
+\item B.U. Computational Neuroscience Fellowship \hfill{2013}
+\item Department of Biology Teaching Fellowship \hfill{2012--2015}
+\item Department of Chemistry Teaching Fellowship \hfill{2011--2012}
+\end{innerlist}
+
+\section{Presentations}
+First Author Abstracts
+\begin{innerlist}
+\item ``Social context mediated pre-motor encoding" \hfill \emph{\color{Maroon} Washington DC, 2017}
+\item ``Structured illumination ready Miniscopes" (Second co-author) \hfill {Janelia, 2017}
+\item ``Rules for motor planning and order in the songbird HVC " \hfill {San Diego, 2017}
+\item ``Sleep promote maintenance of stable motor performance in songbirds" \hfill {San Diego, 2016}
+\item ``Unstable neurons underlie a stable learned behavior" \hfill Salt Lake City, 2016
+\item ``Stability and drift in songbird cortical sequencing" \hfill Chicago, 2015
+\item ``Mesoscopic patterns of neural activity support songbird cortical sequences"  \hfill  Washington DC, 2014
+\item ``A carbon-fiber electrode array for long-term neural recording."  \hfill New Orleans, 2012
+\end{innerlist}
+
+\halfblankline
+
+Invited Talks
+\begin{innerlist}
+
+\item Emory, Invited talk \hfill \emph{\color{Maroon} September 2017}
+\item Tufts, Invited talk \hfill \emph{\color{Maroon} July 2017}
+\item Duke, Invited talk \hfill April 2017
+\item  UC Berkeley (Neuroscience), Invited talk \hfill March 2017
+\item  UC Berkeley (EE\& CS), Invited talk \hfill February 2017
+\item NSF-NRT Neurophotonics Spotlight  \hfill September 2016
+\item Computational and Systems Neuroscience (COSYNE) \hfill February 2016
+\item Boston College Neuroscience Seminar Guest Speaker \hfill January 2016
+\item Boston U. Neuroscience Seminar Series \hfill May 2015, Sept 2016, April 2017
+\item Boston U. Biology Seminar Series \hfill March 2015
+\item Boston U. Graduate Program in Neuroscience Retreat \hfill June 2015
+\end{innerlist}
+
+
+\section{Teaching Experience}
+
+%\textbf{Teaching Assistant} \hfill {Springs 2011--12}
+CHEMISTRY Boston University
+\begin{innerlist}
+\item[] CH203 - Organic Chemistry \hfill {2011--2012}\
+
+	CH131- Inorganic Chemistry for Engineers \hfill {2011--2012}\
+\end{innerlist}
+
+\halfblankline
+
+NEUROSCIENCE/BIOLOGY Boston University
+\begin{innerlist}
+\item[] BI315 - Systems Physiology \hfill {2012--2013}\
+
+BI644/NE644 - Neuroscience Design Lab \hfill {2013--2015}\
+
+
+\end{innerlist}
+
+\section{Service}
+CELSET Electronics \& Experimental Design Course  \hfill {2013--2015}
+
+    \textit{Course Overview:} Through NSF initiative CELEST: (Center of Excellence for Learning in Education, Science and Technology). Taught students from traditionally underrepresented backgrounds in science to program in C, and design simple circuits.\\
+    
+    
+Graduate Resident Assistant  \hfill {2011--2017}\
+
+    \textit{Overview:} Support diverse student populations in living/learning communities on Boston University's campus.\
+
+\
+
+
+Ad Hoc Referee: \textit{PLoS ONE}\  \hfill {2016}
+ 
+
+%\section{References}
+
+%Bradley P.\ Carlin
+%\begin{innerlist}
+%\item[] Mayo Professor in Public Health, Division Head \hfill {Phone: 612-624-6646}\\
+%Division of Biostatistics \hfill{E-mail: carli002@umn.edu}\\
+%University of Minnesota
+%\end{innerlist}
+
+%\halfblankline
+
+
+%\section{Hardware and Software Skills}
+\section{Skills}
+Programming:
+%
+\begin{innerlist}
+    \item  \Matlab, Python, R, Processing. \textit{Familiar with:} C, C++, LabView, Swift2, HTML, CSS, Javascript.
+\end{innerlist}
+
+\halfblankline
+
+Molecular Biology, Biochemistry, \& Neurophysiology:
+%
+\begin{innerlist}
+    \item  Gel electrophoresis, PCR, ELISA, Immunohistochemistry, \textit{in-vivo} Electrophysiology( Extracellular multi-electrode, Intracellular), \textit{in-vivo} Microscopy( Multi-Photon, and Single-photon fluorescence. )
+\end{innerlist}
+
+\halfblankline
+
+Misc:
+%
+\begin{innerlist}
+    \item Arduino, Processing, \LaTeX, Eagle PCB, Fritzing, Git, SolidWorks, SketchUp, TDT DSP, AutoCAD, ZEMAX, Illustrator.
+\end{innerlist}
+
+\halfblankline
+
+Public
+
+%
+\begin{innerlist}
+    \item \href{http://www.github.com/WALIII} {www.github.com/WALIII}  
+    \item \href{http://waliii.github.io} {waliii.github.io}
+        \end{innerlist}
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% This work is licensed under the Creative Commons Attribution-Noncommercial 
+% 3.0 United States License. To view a copy of this license, visit
+% http://creativecommons.org/licenses/by-nc/3.0/us/ or send a letter to
+% Creative Commons, 171 Second Street, Suite 300, San Francisco,
+% California, 94105, USA.
+%
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+% OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+% MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+% IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+% CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+% TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+% SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+%----------------------------------------------------------------------%

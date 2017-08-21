@@ -1,0 +1,1098 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 AUG 2017 10:48
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**thesis.tex
+(./thesis.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+
+
+Package natbib Warning: The `cite' package should not be used
+(natbib)                with natbib. Use option `sort' instead.
+
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citenum on input line 708.
+\c@NAT@ctr=\count100
+) (./apalike.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks19
+\float@box=\box28
+\@float@everytoks=\toks20
+\@floatcapt=\box29
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+\captionmargin=\dimen112
+\captionmargin@=\dimen113
+\captionwidth=\dimen114
+\caption@tempdima=\dimen115
+\caption@indent=\dimen116
+\caption@parindent=\dimen117
+\caption@hangindent=\dimen118
+)
+\c@ContinuedFloat=\count102
+Package caption Info: float package is loaded.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box30
+\shadowsize=\dimen119
+\@Sbox=\box31
+\do@VerbBox=\toks22
+\the@fancyput=\toks23
+\this@fancyput=\toks24
+\EndVerbatimTokens=\toks25
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read1
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(./bu_ece_thesis.sty
+\degree=\count103
+\numadvisors=\count104
+\@approvalreader=\box32
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count105
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks26
+\AP@partial=\box33
+\AP@footins=\box34
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count106
+\sf@farskip=\skip57
+\sf@captopadj=\dimen120
+\sf@capskip=\skip58
+\sf@nearskip=\skip59
+\c@subfigure=\count107
+\c@subfigure@save=\count108
+\c@lofdepth=\count109
+\c@subtable=\count110
+\c@subtable@save=\count111
+\c@lotdepth=\count112
+\sf@top=\skip60
+\sf@bottom=\skip61
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count113
+\c@@ppsavesec=\count114
+\c@@ppsaveapp=\count115
+)
+(./thesis.aux (./0_Prelim/prelim.aux) (./1_Intro/intro.aux
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+) (./2_Body/body.aux
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `chapter:body' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `chapter:body' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `chapter:body' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+)
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+
+LaTeX Warning: Label `fig:Sampling' multiply defined.
+
+(./0_Prelim/cv.aux))
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 66.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 66.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count116
+\scratchdimen=\dimen123
+\scratchbox=\box35
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen124
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks28
+)
+\openout2 = `0_Prelim/prelim.aux'.
+
+ (./0_Prelim/prelim.tex [1
+
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+] [3
+
+] (./0_Prelim/quote.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+) [4
+
+] (./0_Prelim/ack.tex) [5
+
+]
+Overfull \hbox (0.43028pt too wide) in paragraph at lines 111--111
+ [][] 
+ []
+
+(./0_Prelim/abs.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)) [6
+
+] [7]
+(./thesis.toc [8
+
+
+] [9] [10]
+Overfull \hbox (16.5309pt too wide) in paragraph at lines 80--80
+ \OT1/cmr/m/n/12 changes over in-ter-vals of sleep and in-creases in con-sis-te
+ncy through- 
+ []
+
+[11])
+\tf@toc=\write4
+\openout4 = `thesis.toc'.
+
+ [12] (./thesis.lof [13
+
+
+] [14])
+\tf@lof=\write5
+\openout5 = `thesis.lof'.
+
+ [15]
+Overfull \hbox (39.34691pt too wide) in paragraph at lines 148--173
+ [] 
+ []
+
+[16
+
+
+])
+\openout2 = `1_Intro/intro.aux'.
+
+ (./1_Intro/intro.tex
+Chapter 1.
+[1
+
+
+
+
+
+] [2] [3] [4] [5] [6]
+<1_Intro/Figures/figure1.png, id=80, 614.295pt x 201.8742pt>
+File: 1_Intro/Figures/figure1.png Graphic file (type png)
+
+<use 1_Intro/Figures/figure1.png>
+Package pdftex.def Info: 1_Intro/Figures/figure1.png used on input line 68.
+(pdftex.def)             Requested size: 426.79134pt x 140.25749pt.
+ [7] [8 <./1_Intro/Figures/figure1.png>]
+<1_Intro/Figures/figure2.jpg, id=89, 701.5008pt x 300.6432pt>
+File: 1_Intro/Figures/figure2.jpg Graphic file (type jpg)
+
+<use 1_Intro/Figures/figure2.jpg>
+Package pdftex.def Info: 1_Intro/Figures/figure2.jpg used on input line 84.
+(pdftex.def)             Requested size: 398.33858pt x 170.72157pt.
+ [9 <./1_Intro/Figures/figure2.jpg>] [10]
+[11] [12]) [13]
+\openout2 = `2_Body/body.aux'.
+
+ (./2_Body/body.tex [14
+
+
+
+
+]
+Chapter 2.
+[15
+
+
+] [16] [17]
+<2_Body/Figures/chapter2/figure1.png, id=121, 383.031pt x 562.9833pt>
+File: 2_Body/Figures/chapter2/figure1.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter2/figure1.png>
+Package pdftex.def Info: 2_Body/Figures/chapter2/figure1.png used on input line
+ 57.
+(pdftex.def)             Requested size: 227.62204pt x 334.57118pt.
+
+<2_Body/Figures/chapter2/figure2.png, id=122, 505.89pt x 288.8391pt>
+File: 2_Body/Figures/chapter2/figure2.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter2/figure2.png>
+Package pdftex.def Info: 2_Body/Figures/chapter2/figure2.png used on input line
+ 67.
+(pdftex.def)             Requested size: 341.43306pt x 194.94475pt.
+ [18] [19 <./2_Body/Figures/chapter2/figure1.png>]
+<2_Body/Figures/chapter2/figure3.png, id=130, 497.4585pt x 202.1151pt>
+File: 2_Body/Figures/chapter2/figure3.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter2/figure3.png>
+Package pdftex.def Info: 2_Body/Figures/chapter2/figure3.png used on input line
+ 80.
+(pdftex.def)             Requested size: 256.0748pt x 104.04572pt.
+
+<2_Body/Figures/chapter2/figure4.png, id=131, 247.8861pt x 251.0178pt>
+File: 2_Body/Figures/chapter2/figure4.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter2/figure4.png>
+Package pdftex.def Info: 2_Body/Figures/chapter2/figure4.png used on input line
+ 89.
+(pdftex.def)             Requested size: 256.0748pt x 259.31726pt.
+ [20 <./2_Body/Figures/chapter2/figure2.png>] [21 <./2_Body/Figures/chapter2/fi
+gure3.png> <./2_Body/Figures/chapter2/figure4.png>]
+<2_Body/Figures/chapter2/figure5.png, id=139, 503.7219pt x 292.2117pt>
+File: 2_Body/Figures/chapter2/figure5.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter2/figure5.png>
+Package pdftex.def Info: 2_Body/Figures/chapter2/figure5.png used on input line
+ 104.
+(pdftex.def)             Requested size: 341.43306pt x 198.06372pt.
+
+<2_Body/Figures/chapter2/figure6.png, id=140, 516.4896pt x 240.9pt>
+File: 2_Body/Figures/chapter2/figure6.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter2/figure6.png>
+Package pdftex.def Info: 2_Body/Figures/chapter2/figure6.png used on input line
+ 115.
+(pdftex.def)             Requested size: 312.9803pt x 145.98203pt.
+
+<2_Body/Figures/chapter2/figure7.png, id=141, 650.43pt x 556.479pt>
+File: 2_Body/Figures/chapter2/figure7.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter2/figure7.png>
+Package pdftex.def Info: 2_Body/Figures/chapter2/figure7.png used on input line
+ 125.
+(pdftex.def)             Requested size: 312.9803pt x 267.7777pt.
+ [22 <./2_Body/Figures/chapter2/figure5.png>] [23 <./2_Body/Figures/chapter2/fi
+gure6.png> <./2_Body/Figures/chapter2/figure7.png>]
+<2_Body/Figures/chapter2/figure9.png, id=148, 248.3679pt x 302.0886pt>
+File: 2_Body/Figures/chapter2/figure9.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter2/figure9.png>
+Package pdftex.def Info: 2_Body/Figures/chapter2/figure9.png used on input line
+ 147.
+(pdftex.def)             Requested size: 256.0748pt x 311.49121pt.
+ [24]
+<2_Body/Figures/chapter2/figure11.png, id=152, 509.2626pt x 661.5114pt>
+File: 2_Body/Figures/chapter2/figure11.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter2/figure11.png>
+Package pdftex.def Info: 2_Body/Figures/chapter2/figure11.png used on input lin
+e 160.
+(pdftex.def)             Requested size: 284.52756pt x 369.59598pt.
+ [25 <./2_Body/Figures/chapter2/figure9.png>] [26 <./2_Body/Figures/chapter2/fi
+gure11.png>]
+<2_Body/Figures/chapter2/figure13.png, id=159, 503.7219pt x 333.1647pt>
+File: 2_Body/Figures/chapter2/figure13.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter2/figure13.png>
+Package pdftex.def Info: 2_Body/Figures/chapter2/figure13.png used on input lin
+e 173.
+(pdftex.def)             Requested size: 312.9803pt x 207.00734pt.
+ [27 <./2_Body/Figures/chapter2/figure13.png>]
+<2_Body/Figures/chapter2/figure14.png, id=164, 1035.87pt x 412.54124pt>
+File: 2_Body/Figures/chapter2/figure14.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter2/figure14.png>
+Package pdftex.def Info: 2_Body/Figures/chapter2/figure14.png used on input lin
+e 188.
+(pdftex.def)             Requested size: 426.79134pt x 169.97392pt.
+ [28 <./2_Body/Figures/chapter2/figure14.png>] [29] [30] [31] [32] [33] [34] [3
+5]
+Chapter 3.
+[36
+
+] <2_Body/Figures/chapter3/figure1.png, id=197, 256.0767pt x 331.2375pt>
+File: 2_Body/Figures/chapter3/figure1.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter3/figure1.png>
+Package pdftex.def Info: 2_Body/Figures/chapter3/figure1.png used on input line
+ 267.
+(pdftex.def)             Requested size: 284.52756pt x 368.05704pt.
+Missing character: There is no ◊ in font cmr12!
+Missing character: There is no ◊ in font cmr12!
+Missing character: There is no ◊ in font cmr12!
+Missing character: There is no ◊ in font cmr12!
+ [37] [38 <./2_Body/Figures/chapter3/figure1.png>] [39]
+<2_Body/Figures/chapter3/figure2.png, id=208, 414.1071pt x 289.08pt>
+File: 2_Body/Figures/chapter3/figure2.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter3/figure2.png>
+Package pdftex.def Info: 2_Body/Figures/chapter3/figure2.png used on input line
+ 289.
+(pdftex.def)             Requested size: 369.88582pt x 258.21552pt.
+ [40]
+
+LaTeX Warning: Text page 41 contains only floats.
+
+[41 <./2_Body/Figures/chapter3/figure2.png>] [42]
+<2_Body/Figures/chapter3/figure3.png, id=218, 397.2441pt x 221.3871pt>
+File: 2_Body/Figures/chapter3/figure3.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter3/figure3.png>
+Package pdftex.def Info: 2_Body/Figures/chapter3/figure3.png used on input line
+ 313.
+(pdftex.def)             Requested size: 341.43306pt x 190.2946pt.
+ [43] [44 <./2_Body/Figures/chapter3/figure3.png>] [45]
+<2_Body/Figures/chapter3/figure4.png, id=229, 304.7385pt x 224.5188pt>
+File: 2_Body/Figures/chapter3/figure4.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter3/figure4.png>
+Package pdftex.def Info: 2_Body/Figures/chapter3/figure4.png used on input line
+ 331.
+(pdftex.def)             Requested size: 341.43306pt x 251.56894pt.
+ [46 <./2_Body/Figures/chapter3/figure4.png>] [47]
+<2_Body/Figures/chapter3/figure5.png, id=236, 511.4307pt x 265.7127pt>
+File: 2_Body/Figures/chapter3/figure5.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter3/figure5.png>
+Package pdftex.def Info: 2_Body/Figures/chapter3/figure5.png used on input line
+ 370.
+(pdftex.def)             Requested size: 398.33858pt x 206.96315pt.
+ [48] [49 <./2_Body/Figures/chapter3/figure5.png>] [50] [51]
+Overfull \hbox (17.07309pt too wide) in paragraph at lines 392--392
+[]\OT1/cmr/bx/n/12 All Op-ti-cal Phys-i-ol-ogy with Multi-Channel Light De-liv-
+ery and Record-
+ []
+
+[52] [53] [54] [55
+
+]
+Chapter 4.
+[56
+
+
+] [57]
+<2_Body/Figures/chapter4/figure1.png, id=271, 235.6002pt x 75.8835pt>
+File: 2_Body/Figures/chapter4/figure1.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter4/figure1.png>
+Package pdftex.def Info: 2_Body/Figures/chapter4/figure1.png used on input line
+ 449.
+(pdftex.def)             Requested size: 341.43306pt x 109.97266pt.
+ [58]
+<2_Body/Figures/chapter4/figure2.png, id=275, 491.6769pt x 487.8225pt>
+File: 2_Body/Figures/chapter4/figure2.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter4/figure2.png>
+Package pdftex.def Info: 2_Body/Figures/chapter4/figure2.png used on input line
+ 467.
+(pdftex.def)             Requested size: 312.9803pt x 310.53796pt.
+ [59 <./2_Body/Figures/chapter4/figure1.png>] [60]
+
+LaTeX Warning: Text page 61 contains only floats.
+
+[61 <./2_Body/Figures/chapter4/figure2.png>]
+<2_Body/Figures/chapter4/figure3.png, id=285, 236.082pt x 221.628pt>
+File: 2_Body/Figures/chapter4/figure3.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter4/figure3.png>
+Package pdftex.def Info: 2_Body/Figures/chapter4/figure3.png used on input line
+ 489.
+(pdftex.def)             Requested size: 256.0748pt x 240.41316pt.
+ [62]
+<2_Body/Figures/chapter4/figure4.png, id=289, 236.082pt x 123.5817pt>
+File: 2_Body/Figures/chapter4/figure4.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter4/figure4.png>
+Package pdftex.def Info: 2_Body/Figures/chapter4/figure4.png used on input line
+ 503.
+(pdftex.def)             Requested size: 312.9803pt x 163.84865pt.
+ [63 <./2_Body/Figures/chapter4/figure3.png>] <2_Body/Figures/chapter4/figure5.
+png, id=294, 236.5638pt x 120.45pt>
+File: 2_Body/Figures/chapter4/figure5.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter4/figure5.png>
+Package pdftex.def Info: 2_Body/Figures/chapter4/figure5.png used on input line
+ 515.
+(pdftex.def)             Requested size: 284.52756pt x 144.87009pt.
+
+<2_Body/Figures/chapter4/figure6.png, id=295, 235.6002pt x 288.5982pt>
+File: 2_Body/Figures/chapter4/figure6.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter4/figure6.png>
+Package pdftex.def Info: 2_Body/Figures/chapter4/figure6.png used on input line
+ 526.
+(pdftex.def)             Requested size: 256.0748pt x 313.68506pt.
+ [64 <./2_Body/Figures/chapter4/figure4.png> <./2_Body/Figures/chapter4/figure5
+.png>] [65 <./2_Body/Figures/chapter4/figure6.png>]
+<2_Body/Figures/chapter4/figure7.png, id=302, 492.3996pt x 194.4063pt>
+File: 2_Body/Figures/chapter4/figure7.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter4/figure7.png>
+Package pdftex.def Info: 2_Body/Figures/chapter4/figure7.png used on input line
+ 544.
+(pdftex.def)             Requested size: 312.9803pt x 123.57417pt.
+ [66] [67 <./2_Body/Figures/chapter4/figure7.png>]
+<2_Body/Figures/chapter4/figure8.png, id=309, 236.3229pt x 130.3269pt>
+File: 2_Body/Figures/chapter4/figure8.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter4/figure8.png>
+Package pdftex.def Info: 2_Body/Figures/chapter4/figure8.png used on input line
+ 559.
+(pdftex.def)             Requested size: 312.9803pt x 172.60872pt.
+ [68 <./2_Body/Figures/chapter4/figure8.png>] [69] [70] [71] [72] [73] [74] [75
+] [76] [77] [78]
+Overfull \hbox (3.99123pt too wide) in paragraph at lines 637--637
+[]\OT1/cmr/bx/n/12 Identifying bursts in pro-jec-tion neu-rons and in-terneu-ro
+ns for burst-
+ []
+
+[79] [80] [81]
+Chapter 5.
+[82
+
+] [83]
+<2_Body/Figures/chapter5/figure1.png, id=363, 250.0542pt x 229.3368pt>
+File: 2_Body/Figures/chapter5/figure1.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter5/figure1.png>
+Package pdftex.def Info: 2_Body/Figures/chapter5/figure1.png used on input line
+ 672.
+(pdftex.def)             Requested size: 312.9803pt x 287.07272pt.
+ [84 <./2_Body/Figures/chapter5/figure1.png>] <2_Body/Figures/chapter5/figure2.
+png, id=368, 505.89pt x 372.9132pt>
+File: 2_Body/Figures/chapter5/figure2.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter5/figure2.png>
+Package pdftex.def Info: 2_Body/Figures/chapter5/figure2.png used on input line
+ 688.
+(pdftex.def)             Requested size: 369.88582pt x 272.6625pt.
+ [85 <./2_Body/Figures/chapter5/figure2.png>] [86]
+<2_Body/Figures/chapter5/figure3.png, id=375, 250.0542pt x 324.2514pt>
+File: 2_Body/Figures/chapter5/figure3.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter5/figure3.png>
+Package pdftex.def Info: 2_Body/Figures/chapter5/figure3.png used on input line
+ 704.
+(pdftex.def)             Requested size: 341.43306pt x 442.78197pt.
+ [87] [88 <./2_Body/Figures/chapter5/figure3.png>]
+<2_Body/Figures/chapter5/figure5.png, id=383, 505.89pt x 302.8113pt>
+File: 2_Body/Figures/chapter5/figure5.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter5/figure5.png>
+Package pdftex.def Info: 2_Body/Figures/chapter5/figure5.png used on input line
+ 720.
+(pdftex.def)             Requested size: 455.24408pt x 272.49991pt.
+
+Overfull \hbox (21.62408pt too wide) in paragraph at lines 720--723
+ [][] 
+ []
+
+<2_Body/Figures/chapter5/figureS3.png, id=384, 386.1627pt x 182.6022pt>
+File: 2_Body/Figures/chapter5/figureS3.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter5/figureS3.png>
+Package pdftex.def Info: 2_Body/Figures/chapter5/figureS3.png used on input lin
+e 731.
+(pdftex.def)             Requested size: 426.79134pt x 201.81593pt.
+
+<2_Body/Figures/chapter5/figureS7.png, id=385, 357.0138pt x 178.5069pt>
+File: 2_Body/Figures/chapter5/figureS7.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter5/figureS7.png>
+Package pdftex.def Info: 2_Body/Figures/chapter5/figureS7.png used on input lin
+e 744.
+(pdftex.def)             Requested size: 426.79134pt x 213.40092pt.
+ [89]
+<2_Body/Figures/chapter5/figureS8.png, id=389, 548.7702pt x 253.1859pt>
+File: 2_Body/Figures/chapter5/figureS8.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter5/figureS8.png>
+Package pdftex.def Info: 2_Body/Figures/chapter5/figureS8.png used on input lin
+e 753.
+(pdftex.def)             Requested size: 426.79134pt x 196.91243pt.
+ [90 <./2_Body/Figures/chapter5/figure5.png>]
+<2_Body/Figures/chapter5/figure6.png, id=393, 250.0542pt x 181.8795pt>
+File: 2_Body/Figures/chapter5/figure6.png Graphic file (type png)
+
+<use 2_Body/Figures/chapter5/figure6.png>
+Package pdftex.def Info: 2_Body/Figures/chapter5/figure6.png used on input line
+ 766.
+(pdftex.def)             Requested size: 341.43306pt x 248.3658pt.
+ [91 <./2_Body/Figures/chapter5/figureS3.png>] [92 <./2_Body/Figures/chapter5/f
+igureS7.png>] [93 <./2_Body/Figures/chapter5/figureS8.png>] [94 <./2_Body/Figur
+es/chapter5/figure6.png>] [95]
+[96] [97] [98] [99]
+Overfull \hbox (16.80388pt too wide) in paragraph at lines 820--821
+\OT1/cmr/m/n/12 Addgene plas-mids # 40753 (pGP-CMV-GCaMP6s) and # 40755 (pGP-CM
+V-GCaMP6f)
+ []
+
+
+Overfull \hbox (0.95618pt too wide) in paragraph at lines 820--821
+\OT1/cmr/m/n/12 RSV-eGFP. GCaMP6f was then cloned into pHAGE-RSV-GCaMP6s to for
+m pHAGE-
+ []
+
+[100] [101] [102] [103] [104] [105]) [106] (./3_Conclusion/conclusion.tex
+Chapter 6.
+[107
+
+
+
+] [108] [109]
+<3_Conclusion/Figures/figure2.png, id=454, 962.59625pt x 486.81876pt>
+File: 3_Conclusion/Figures/figure2.png Graphic file (type png)
+
+<use 3_Conclusion/Figures/figure2.png>
+Package pdftex.def Info: 3_Conclusion/Figures/figure2.png used on input line 33
+.
+(pdftex.def)             Requested size: 341.43306pt x 172.66959pt.
+ [110 <./3_Conclusion/Figures/figure2.png>] <3_Conclusion/Figures/figure3.png, 
+id=459, 433.62pt x 289.08pt>
+File: 3_Conclusion/Figures/figure3.png Graphic file (type png)
+
+<use 3_Conclusion/Figures/figure3.png>
+Package pdftex.def Info: 3_Conclusion/Figures/figure3.png used on input line 51
+.
+(pdftex.def)             Requested size: 369.88582pt x 246.60135pt.
+ [111 <./3_Conclusion/Figures/figure3.png>] <3_Conclusion/Figures/figure5.jpg, 
+id=464, 515.0442pt x 342.8007pt>
+File: 3_Conclusion/Figures/figure5.jpg Graphic file (type jpg)
+
+<use 3_Conclusion/Figures/figure5.jpg>
+Package pdftex.def Info: 3_Conclusion/Figures/figure5.jpg used on input line 67
+.
+(pdftex.def)             Requested size: 312.9803pt x 208.31305pt.
+
+<3_Conclusion/Figures/figure4.jpg, id=465, 1060.9236pt x 429.7656pt>
+File: 3_Conclusion/Figures/figure4.jpg Graphic file (type jpg)
+
+<use 3_Conclusion/Figures/figure4.jpg>
+Package pdftex.def Info: 3_Conclusion/Figures/figure4.jpg used on input line 77
+.
+(pdftex.def)             Requested size: 312.9803pt x 126.77974pt.
+ [112] [113 <./3_Conclusion/Figures/figure5.jpg> <./3_Conclusion/Figures/figure
+4.jpg>]
+Overfull \hbox (16.63612pt too wide) in paragraph at lines 91--91
+[]\OT1/cmr/bx/n/14.4 ROI based, near-Real-Time Brain Ma-chine In-ter-face (BMI)
+
+ []
+
+[114] [115]
+<3_Conclusion/Figures/figure1.png, id=478, 896.34875pt x 386.44376pt>
+File: 3_Conclusion/Figures/figure1.png Graphic file (type png)
+
+<use 3_Conclusion/Figures/figure1.png>
+Package pdftex.def Info: 3_Conclusion/Figures/figure1.png used on input line 10
+9.
+(pdftex.def)             Requested size: 312.9803pt x 134.93301pt.
+ [116 <./3_Conclusion/Figures/figure1.png>] <3_Conclusion/Figures/figure6.png, 
+id=483, 696.6828pt x 572.1375pt>
+File: 3_Conclusion/Figures/figure6.png Graphic file (type png)
+
+<use 3_Conclusion/Figures/figure6.png>
+Package pdftex.def Info: 3_Conclusion/Figures/figure6.png used on input line 12
+7.
+(pdftex.def)             Requested size: 312.9803pt x 257.03171pt.
+Missing character: There is no È in font cmr12!
+ [117] [118 <./3_Conclusion/Figures/figure6.png (PNG copy)>]) [119] (./thesis.b
+bl
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ê in font cmr12!
+ [120
+
+
+] [121] [122] [123] [124] [125]
+[126] [127] [128] [129] [130]
+Overfull \hbox (1.49084pt too wide) in paragraph at lines 921--925
+[]\OT1/cmr/m/n/12 Wiltschko, A. B., John-son, M. J., Iurilli, G., Pe-ter-son, R
+. E., Ka-ton, J. M., Pashkovski,
+ []
+
+[131]) [132]
+\openout2 = `0_Prelim/cv.aux'.
+
+ (./0_Prelim/cv.tex) [133
+
+
+] (./thesis.aux (./0_Prelim/prelim.aux)
+(./1_Intro/intro.aux) (./2_Body/body.aux) (./0_Prelim/cv.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 144 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 5911 strings out of 493089
+ 92788 string characters out of 6134842
+ 160366 words of memory out of 5000000
+ 9217 multiletter control sequences out of 15000+600000
+ 13787 words of font info for 52 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,8n,43p,3172b,591s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm
+-super-ts1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
+Output written on thesis.pdf (149 pages, 25785525 bytes).
+PDF statistics:
+ 599 PDF objects out of 1000 (max. 8388607)
+ 383 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+
